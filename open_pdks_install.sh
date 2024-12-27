@@ -29,7 +29,11 @@ cd ..
 sudo ln -s /usr/local/share/pdk/sky130A/libs.tech/magic/* /usr/local/lib/magic/sys
 #magic -T sky130A
 
-## First test of trying example circuits in sky130 
+## First test of trying example circuits in sky130. 
+## Organizing the project files make your life easier. Make a "projects" directory on home folder, and keep all your projects here. 
+cd 
+mkdir projects
+cd projects
 mkdir test_xschem_sky130
 cd test_xschem_sky130
 echo 'source /usr/local/share/pdk/sky130B/libs.tech/xschem/xschemrc' > ./xschemrc
