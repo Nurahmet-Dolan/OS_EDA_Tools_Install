@@ -69,7 +69,7 @@ cd ..
 
 
 #####################################
-Gaw download link
+Gaw waveform viewer
 #####################################
 https://www.rvq.fr/php/ndl.php?id=gaw.?-.*
 
@@ -78,30 +78,8 @@ pre-requisite
 #######################
 sudo apt install libgtk-3-dev
 
-######################
-error
-###################
-Making install in lib
-make[1]: Entering directory '/home/nur/eda_tools/gaw/gaw3-20250128/lib'
-make[2]: Entering directory '/home/nur/eda_tools/gaw/gaw3-20250128/lib'
-make[2]: Nothing to be done for 'install-exec-am'.
-make[2]: Nothing to be done for 'install-data-am'.
-make[2]: Leaving directory '/home/nur/eda_tools/gaw/gaw3-20250128/lib'
-make[1]: Leaving directory '/home/nur/eda_tools/gaw/gaw3-20250128/lib'
-Making install in src
-make[1]: Entering directory '/home/nur/eda_tools/gaw/gaw3-20250128/src'
-make[2]: Entering directory '/home/nur/eda_tools/gaw/gaw3-20250128/src'
- /usr/bin/mkdir -p '/usr/local/bin'
-  /usr/bin/install -c gaw '/usr/local/bin'
-/usr/bin/install: cannot create regular file '/usr/local/bin/gaw': Permission denied
-make[2]: *** [Makefile:408: install-binPROGRAMS] Error 1
-make[2]: Leaving directory '/home/nur/eda_tools/gaw/gaw3-20250128/src'
-make[1]: *** [Makefile:622: install-am] Error 2
-make[1]: Leaving directory '/home/nur/eda_tools/gaw/gaw3-20250128/src'
-make: *** [Makefile:492: install-recursive] Error 1
-
-################################
-solution
-########################
+tar zxvf gaw-yyyymmdd.tar.gz
+cd gaw-yyyymmdd
+./configure
 sudo make
 sudo make install
