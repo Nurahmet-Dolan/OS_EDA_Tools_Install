@@ -67,17 +67,23 @@ sudo make
 sudo make install
 cd ..
 
+#####################################
+Step6: Gaw waveform viewer integration
+#####################################
 
 #####################################
-Gaw waveform viewer
+Download link
 #####################################
 https://www.rvq.fr/php/ndl.php?id=gaw.?-.*
 
-#######################
+#####################################
 pre-requisite
-#######################
+#####################################
 sudo apt install libgtk-3-dev
 
+#####################################
+Install
+#####################################
 tar zxvf gaw-yyyymmdd.tar.gz
 cd gaw-yyyymmdd
 ./configure
