@@ -72,3 +72,9 @@ cd ..
 Gaw download link
 #####################################
 https://www.rvq.fr/php/ndl.php?id=gaw.?-.*
+
+#######################
+pre-requisite
+#######################
+sudo apt install libgtk-3-dev
+
